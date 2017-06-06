@@ -37,7 +37,7 @@
 . $CORE_PATH/hw/scripts/openocd.sh
 
 FILE_NAME=$BIN_BASENAME.elf
-CFG="-f /home/gvr/.openocd/openocd.cfg"
+CFG="-f ~/.openocd/openocd.cfg"
 # Exit openocd when gdb detaches.
 EXTRA_JTAG_CMD="$EXTRA_JTAG_CMD; nrf51.cpu configure -event gdb-detach {if {[nrf51.cpu curstate] eq \"halted\"} resume;shutdown}"
 
