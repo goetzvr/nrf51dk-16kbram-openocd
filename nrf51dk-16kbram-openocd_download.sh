@@ -41,7 +41,7 @@
 #jlink_load
 . $CORE_PATH/hw/scripts/openocd.sh
 
-CFG="--file ~/.openocd/openocd.cfg"
+CFG="--file $HOME/.openocd/openocd.cfg"
 
 if [ "$MFG_IMAGE" ]; then
     FLASH_OFFSET=0
