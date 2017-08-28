@@ -26,8 +26,8 @@ bsp.linkerscript.BOOT_LOADER.OVERWRITE:
     - "hw/bsp/nrf51dk-16kbram/boot-nrf51xxaa.ld"
     - "hw/mcu/nordic/nrf51xxx/nrf51.ld"
 bsp.part2linkerscript: "hw/bsp/nrf51dk-16kbram/split-nrf51dk-16kbram.ld"
-bsp.downloadscript: "hw/bsp/nrf51dk-16kbram/nrf51dk-16kbram_download.sh"
-bsp.debugscript: "hw/bsp/nrf51dk-16kbram/nrf51dk-16kbram_debug.sh"
+bsp.downloadscript: "hw/bsp/nrf51dk-16kbram-openocd/nrf51dk-16kbram-openocd_download.sh"
+bsp.debugscript: "hw/bsp/nrf51dk-16kbram-openocd/nrf51dk-16kbram-openocd_debug.sh"
 bsp.downloadscript.WINDOWS.OVERWRITE: "hw/bsp/nrf51dk-16kbram/nrf51dk-16kbram_download.cmd"
 bsp.debugscript.WINDOWS.OVERWRITE: "hw/bsp/nrf51dk-16kbram/nrf51dk-16kbram_debug.cmd"
 
